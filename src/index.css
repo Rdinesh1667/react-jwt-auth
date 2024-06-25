@@ -9,12 +9,19 @@
 html {
     font-family: 'Nunito', sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: #ffffff;
 }
 
 body {
     min-height: 100vh;
     background-color: dodgerblue;
+    background-image: url('./assets/images/ball_bg_img.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+    background-position: center center;
+    color: #000000 !important;
+    
 }
 
 .App {
@@ -31,7 +38,8 @@ section {
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem;
-    background-color: rgba(168, 255, 55, 0.4);
+    background-color: rgb(163 159 159 / 50%);
+    border-radius: 1rem;
 }
 
 form {
